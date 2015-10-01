@@ -3,9 +3,10 @@
  * ===========================
  * Author: Jesson Foo
  * Version: 1.0.0
+ * ShortURL: git.io/vspOL
  * Licensed under the Apache License v2.0
  * http://www.apache.org/licenses/LICENSE-2.0
- * URL: https://github.com/jessonfoo/globalAtomic/
+ * Github: https://github.com/jessonfoo
  * =========================== */
 
 /* +============================+ */
@@ -24,19 +25,23 @@
 /* +============================+ */
 /* | Adjustable color Settings  | */
 /* +============================+ */
-.color-red { color: #9e0b0f;}
+
+
+/* font colors */
+.color-red { color: #b22229;}
 .color-orange { color: #FF9C1D; }
 .color-yellow { color: #FDCA09;}
 .color-green { color: #73B625; }
 .color-blue { color: #185a82;}
 .color-purple { color: #6E2977;}
 .color-black { color: #000000;}
-.color-dgrey { color: #484949;}
+.color-dgrey { color: #474747;}
 .color-grey { color: #808182;}
-.link-grey, .link-grey:hover { color: rgb(140,140,140) !important; }
 .color-lgrey { color: #F0F2F3;}
 .color-white { color: #ffffff;}
-.bg-red { background: #9e0b0f;}
+
+/* Backgrounds */
+.bg-red { background: #b22229;}
 .bg-orange { background: #FF9C1D; }
 .bg-yellow { background: #FDCA09;}
 .bg-green {background: #73B625;}
@@ -46,8 +51,12 @@
 .bg-white { background: #ffffff;}
 .bg-black { background: #000A13;}
 .bg-lgrey { background: #F0F2F3;}
-.bg-grey { background: #808182;}
+.bg-grey { background: #474747;}
 .bg-dgrey { background: #484949;}
+
+/* etc */
+.link-grey, .link-grey:hover { color: rgb(140,140,140) !important; }
+
 /* +============================+ */
 /* |      text normalization    | */
 /* +============================+ */
@@ -99,27 +108,27 @@
 .full-height { height: 100%;}
 .full-width { width: 100%; margin-left: 0; margin-right: 0;}
 .row-fluid.no-gutters {
-  margin-right: 0 !important;
-  margin-left: 0 !important;
-  padding-right: 0 !important;
-  padding-left: 0 !important;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
 }
 .row-fluid.no-gutters  [class^="span-"],
 .row-fluid.no-gutters  [class*="span"],
 .row-fluid.no-gutters  [class*="span-"] {
-  margin-right: 0 !important;
-  margin-left: 0 !important;
-  padding-right: 0 !important;
-  padding-left: 0 !important;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
 }
 .row.no-gutters {
-  margin-right: 0;
-  margin-left: 0;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 .row.no-gutters > [class^="span-"],
 .row.no-gutters > [class*="span-"] {
-  padding-right: 0;
-  padding-left: 0;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 /* +============================+ */
 /* |          margins           | */
@@ -500,7 +509,10 @@
 .ptb-225 { padding-top: 225px; padding-bottom: 225px;}
 .ptb-250 { padding-top: 250px; padding-bottom: 250px;}
 .ptb-275 { padding-top: 275px; padding-bottom: 275px;}
-
+.ptb-300 { padding-top: 200px; padding-bottom: 200px;}
+.ptb-325 { padding-top: 225px; padding-bottom: 225px;}
+.ptb-350 { padding-top: 250px; padding-bottom: 250px;}
+.ptb-375 { padding-top: 275px; padding-bottom: 275px;}
 /* +============================+ */
 /* |     percentage margins     | */
 /* +============================+ */
@@ -652,6 +664,9 @@ margin-left: 12%;}
 .fs-68 { font-size: 68px;}
 .fs-69 { font-size: 69px;}
 .fs-70 { font-size: 70px;}
+.fs-80 { font-size: 80px;}
+.fs-82 { font-size: 82px;}
+
 
 /* +============================+ */
 /* |       %  height            | */
@@ -789,7 +804,7 @@ margin-left: 12%;}
 /* |          width             | */
 /* +============================+ */
 .w-100p { width: 100%;}
-.w-50p { width: 43%;}
+.w-50p { width: 50%;}
 /* +============================+ */
 /* |          width             | */
 /* +============================+ */
