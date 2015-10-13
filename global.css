@@ -28,17 +28,17 @@
 
 
 /* font colors */
-.c-red { color: #b22229;}
-.c-orange { color: #FF9C1D; }
-.c-yellow { color: #FDCA09;}
-.c-green { color: #73B625; }
-.c-blue { color: #185a82;}
-.c-purple { color: #6E2977;}
+.c-r { color: #b22229;}
+.c-o { color: #FF9C1D; }
+.c-y { color: #FDCA09;}
+.c-gr { color: #73B625; }
+.c-blu { color: #185a82;}
+.c-p { color: #6E2977;}
 .c-blk { color: #000000;}
-.c-dey { color: #474747;}
-.c-grey { color: #808182;}
-.c-lgrey { color: #F0F2F3;}
-.c-white { color: #ffffff;}
+.c-dg { color: #474747;}
+.c-g { color: #808182;}
+.c-lg { color: #F0F2F3;}
+.c-w { color: #ffffff;}
 
 /* Backgrounds */
 .bg-r { background: #b22229;}
