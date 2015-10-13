@@ -12,11 +12,11 @@
 /* +============================+ */
 /* |   enable fonts as needed   | */
 /* +============================+ */
-@import url(http://fonts.googleapis.com/css?family=Play:400,700); 
-@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,700,600,400);
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700italic,700,500italic,500,400italic,300italic,300,100italic,100);
+/* @import url(http://fonts.googleapis.com/css?family=Play:400,700);  */
+/* @import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700); */
+/* @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,700,600,400); */
+/* @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700); */
+/* @import url(http://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700italic,700,500italic,500,400italic,300italic,300,100italic,100); */
 /* @font-face {font-family: BebasNeue Bold;src:url("fonts/BebasNeue\ Bold.otf") format("opentype");} */
 /* @font-face {font-family: airborne ;src:url("fonts/airborne.ttf") format("truetype");} */
 /* @font-face {font-family: FontAwesome ;src:url("fonts/fontawesome.ttf") format("truetype");} */
@@ -28,31 +28,30 @@
 
 
 /* font colors */
-.color-red { color: #b22229;}
-.color-orange { color: #FF9C1D; }
-.color-yellow { color: #FDCA09;}
-.color-green { color: #73B625; }
-.color-blue { color: #185a82;}
-.color-purple { color: #6E2977;}
-.color-black { color: #000000;}
-.color-dgrey { color: #474747;}
-.color-grey { color: #808182;}
-.color-lgrey { color: #F0F2F3;}
-.color-white { color: #ffffff;}
+.c-red { color: #b22229;}
+.c-orange { color: #FF9C1D; }
+.c-yellow { color: #FDCA09;}
+.c-green { color: #73B625; }
+.c-blue { color: #185a82;}
+.c-purple { color: #6E2977;}
+.c-blk { color: #000000;}
+.c-dey { color: #474747;}
+.c-grey { color: #808182;}
+.c-lgrey { color: #F0F2F3;}
+.c-white { color: #ffffff;}
 
 /* Backgrounds */
-.bg-red { background: #b22229;}
-.bg-orange { background: #FF9C1D; }
-.bg-yellow { background: #FDCA09;}
-.bg-green {background: #73B625;}
-.bg-blue { background: #185a82;}
+.bg-r { background: #b22229;}
+.bg-o { background: #FF9C1D; }
+.bg-y { background: #FDCA09;}
+.bg-blu { background: #185a82;}
 /* .bg-blue { background: #2371AE; } */
-.bg-purple { background: #3E0646;}
-.bg-white { background: #ffffff;}
-.bg-black { background: #000A13;}
-.bg-lgrey { background: #F0F2F3;}
-.bg-grey { background: #474747;}
-.bg-dgrey { background: #484949;}
+.bg-p { background: #3E0646;}
+.bg-w { background: #ffffff;}
+.bg-blk { background: #000;}
+.bg-lg { background: #F0F2F3;}
+.bg-g { background: #474747;}
+.bg-dg { background: #484949;}
 
 /* etc */
 .link-grey, .link-grey:hover { color: rgb(140,140,140) !important; }
@@ -64,11 +63,11 @@
 /* +============================+ */
 /* |        alignment           | */
 /* +============================+ */
-.one-line { overflow:hidden;text-overflow:ellipsis; white-space:nowrap; }
-.a-justify { text-align: justify;}
-.a-center { text-align: center;}
-.a-left { text-align: left;}
-.a-right { text-align: right;}
+.single-line { overflow:hidden;text-overflow:ellipsis; white-space:nowrap; }
+.a-j { text-align: justify;}
+.a-c { text-align: center;}
+.a-l { text-align: left;}
+.a-r { text-align: right;}
 .d-h { display: hidden;}
 .f-l { float: left;}
 .fl-85 { width: 90%; float: left; margin: 30px 0px;}
@@ -98,10 +97,7 @@
 .c-p { cursor:pointer;}
 .upcase { text-transform:uppercase;}
 .caps { text-transform:capitalize;}
-.mlr-a {
-  margin-left: auto;
-  margin-right: auto;
-}
+.mlr-a { margin-left: auto; margin-right: auto; }
 /* +============================+ */
 /* |      width adjustments     | */
 /* +============================+*/
@@ -133,7 +129,7 @@
 /* +============================+ */
 /* |          margins           | */
 /* +============================+ */
-.m-auto { margin: auto  !important; }
+.m-a { margin: auto  !important; }
 .m-5    { margin: 5px   !important; }
 .m-10   { margin: 10px  !important; }
 .m-15   { margin: 15px  !important; }
@@ -577,6 +573,7 @@ margin-left: 12%;}
 /* |   font-family override     | */
 /* +============================+ */
 .f-open-sans { font-family: 'open sans';}
+.f-opensans { font-family: 'open sans';}
 .f-oswald { font-family: 'oswald';}
 .f-play { font-family: 'play';}
 .f-lato { font-family: 'lato';}
@@ -588,12 +585,12 @@ margin-left: 12%;}
 /* +============================+ */
 /* |  fonts/text normalizations | */
 /* +============================+ */
+.bold { font-weight: bold;}
+.light{ font-weight: 300;}
 .lh-1 { line-height: 1;}
 .lh-1-5 { line-height: 1.5;}
 .lh-2 { line-height: 2;}
 .lh-2-5 { line-height: 2.5;}
-.bold { font-weight: bold;}
-.light{ font-weight: 300;}
 .fs-1 { font-size: 1px;}
 .fs-2 { font-size: 2px;}
 .fs-3 { font-size: 3px;}
@@ -664,8 +661,30 @@ margin-left: 12%;}
 .fs-68 { font-size: 68px;}
 .fs-69 { font-size: 69px;}
 .fs-70 { font-size: 70px;}
+.fs-71 { font-size: 71px;}
+.fs-72 { font-size: 72px;}
+.fs-73 { font-size: 73px;}
+.fs-74 { font-size: 74px;}
+.fs-75 { font-size: 75px;}
+.fs-76 { font-size: 76px;}
+.fs-77 { font-size: 77px;}
+.fs-78 { font-size: 78px;}
+.fs-79 { font-size: 79px;}
 .fs-80 { font-size: 80px;}
+.fs-81 { font-size: 81px;}
 .fs-82 { font-size: 82px;}
+.fs-83 { font-size: 83px;}
+.fs-84 { font-size: 84px;}
+.fs-85 { font-size: 85px;}
+.fs-86 { font-size: 86px;}
+.fs-87 { font-size: 87px;}
+.fs-88 { font-size: 88px;}
+.fs-89 { font-size: 89px;}
+.fs-90 { font-size: 90px;}
+.fs-100{ font-size:100px;}
+.fs-110{ font-size:110px;}
+.fs-120{ font-size:120px;}
+.fs-130{ font-size:130px;}
 
 
 /* +============================+ */
@@ -676,7 +695,6 @@ margin-left: 12%;}
 /* +============================+ */
 /* |          height            | */
 /* +============================+ */
-.h-auto { height: auto;}
 .h-25 { height: 25px;}
 .h-30 { height: 30px;}
 .h-40 { height: 40px;}
@@ -1283,7 +1301,7 @@ margin-left: 12%;}
 /* +============================+ */
 /* |         overflow           | */
 /* +============================+ */
-.over-f-h { overflow: hidden;}
+.ofh { overflow: hidden;}
 /* +============================+ */
 /* |        Borders             | */
 /* +============================+ */
@@ -1296,16 +1314,16 @@ margin-left: 12%;}
 .bb-orange {
   border-bottom:2px solid #FCA25B;
 }
-.border-dgrey{
+.border-dg{
   border: 2px solid  #484949;
 }
-.border-lgrey{
+.border-lg{
   border: 2px solid  #D4D5D6;
 }
-.border-grey{
+.border-g{
   border: 2px solid  #A0A0A1;
 }
-.border-white{
+.border-w{
   border: 3px solid  white;
 }
 .border-y {
@@ -2485,4 +2503,6 @@ margin-left: 12%;}
     overflow: visible !important;
   }
 }
+
+
 
