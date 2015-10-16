@@ -101,8 +101,8 @@
 /* +============================+ */
 /* |      width adjustments     | */
 /* +============================+*/
-.full-height { height: 100%;}
-.full-width { width: 100%; margin-left: 0; margin-right: 0;}
+.f-h { height: 100%;}
+.f-wh { width: 100%; margin-left: 0; margin-right: 0;}
 .row-fluid.no-gutters {
   margin-right: 0px !important;
   margin-left: 0px !important;
