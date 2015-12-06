@@ -103,8 +103,11 @@
 /* +============================+*/
 .fh{ height: 100%;}
 .fw{ width: 100%; margin-left: 0; margin-right: 0;}
+<<<<<<< HEAD
+=======
 .f-h { height: 100%;}
 .f-wh { width: 100%; margin-left: 0; margin-right: 0;}
+>>>>>>> ae94dc660ab872c58ad3d92dc289afa82cf6b0c1
 .row-fluid.no-gutters {
   margin-right: 0px !important;
   margin-left: 0px !important;
