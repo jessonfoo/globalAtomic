@@ -28,12 +28,12 @@
 
 
 /* font colors */
-.c-r { color: #b22229;}
-.c-o { color: #FF9C1D; }
+.c-r{ color: #b22229;}
+.c-o{ color: #FF9C1D; }
 .c-y { color: #FDCA09;}
-.c-gr { color: #73B625; }
-.c-blu { color: #185a82;}
-.c-p { color: #6E2977;}
+.c-grn { color: #73B625; }
+.c-bl { color: #185a82;}
+.c-purple { color: #6E2977;}
 .c-blk { color: #000000;}
 .c-dg { color: #474747;}
 .c-g { color: #808182;}
@@ -68,7 +68,7 @@
 .a-c { text-align: center;}
 .a-l { text-align: left;}
 .a-r { text-align: right;}
-.d-h { display: hidden;}
+.d-n { display: none;}
 .f-l { float: left;}
 .fl-85 { width: 90%; float: left; margin: 30px 0px;}
 .f-r { float: right;}
@@ -76,7 +76,7 @@
 .v-v {visibility:visible;}
 .va-t { vertical-align: top;}
 .va-b { vertical-align: bottom;}
-.va-wbl { vertical-align: -webkit-baseline-middle;}
+.va-wbl { vertical-align: -webkit-baseline-middle, middle;}
 .va-bl { vertical-align: baseline;}
 .va-m { vertical-align: middle;}
 .p-inh { position: inherit;}
@@ -1438,9 +1438,9 @@ margin-left: 12%;}
           box-sizing: border-box;
 }
 
-@-ms-viewport {
-  width: device-width;
-}
+/* @-ms-viewport { */
+/*   width: device-width; */
+/* } */
 
 .hidden {
   display: none;
